@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pt2024_group5_moga_diana_assigment1.PolynomialCalculator">
+    <children>
+        <TextField fx:id="polynomial1Field" layoutX="43.0" layoutY="101.0" promptText="Polynomial 1" />
+        <TextField fx:id="polynomial2Field" layoutX="44.0" layoutY="142.0" promptText="Polynomial 2" />
+        <Text layoutX="52.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Polynomial Calculator" wrappingWidth="149.5999999999999" />
+        <Button fx:id="addButton" layoutX="43.0" layoutY="188.0" mnemonicParsing="false" onAction="#addButtonAction" text="Add" />
+        <Button fx:id="SubstractButton" layoutX="44.0" layoutY="232.0" mnemonicParsing="false" onAction="#subtractButtonAction" text="Substract" />
+      <Label fx:id="resultLabel" layoutX="328.0" layoutY="133.0" prefHeight="42.0" prefWidth="199.0" text="Result:" />
+      <Button fx:id="resetButton" layoutX="353.0" layoutY="280.0" mnemonicParsing="false" onAction="#resetButtonAction" text="Reset" />
+      <Button fx:id="multiplyButton" layoutX="43.0" layoutY="280.0" mnemonicParsing="false" onAction="#multiplyButtonAction" text="Multiply" />
+      <Button fx:id="derivativeButton" layoutX="142.0" layoutY="188.0" mnemonicParsing="false" onAction="#derivativeButtonAction" text="Derivative" />
+      <Button fx:id="integrateButton" layoutX="142.0" layoutY="232.0" mnemonicParsing="false" onAction="#integrationButtonAction" text="Integrate" />
+    </children>
+</AnchorPane>
