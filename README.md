@@ -1,6 +1,7 @@
 # Polynomial Calculator
 
 This repository contains a Polynomial Calculator that allows users to perform operations like addition, subtraction, multiplication, derivatives, and integration on polynomials. Below are the use case descriptions for each operation.
+![Polynomial Calculator](poly.png)
 
 ## Use Case Descriptions
 
@@ -12,7 +13,7 @@ This repository contains a Polynomial Calculator that allows users to perform op
 2. The user clicks on the "Add" button.
 3. The system parses the input polynomials and performs the addition operation.
 4. The system displays the result of the addition in the result label.
-
+   ![Addition](poly_add.png)
 ### 2.2 Subtract Polynomials
 **Description**: This use case describes the scenario where the user wants to subtract one polynomial from another.
 
